@@ -1,0 +1,21 @@
+var a;
+var b;
+var c;
+var d;
+var e = [1, 23, 3];
+var f = [true, 1, 'wewqe'];
+a = 'cccc';
+b = false;
+c = 'see';
+console.log(a, b, c, d, e, f);
+var colorred = 0;
+var colorg = 1;
+var colorb = 2;
+var Color;
+(function (Color) {
+    Color["Red"] = "0";
+    Color["Green"] = "1";
+    Color["Blue"] = "2";
+})(Color || (Color = {}));
+var backgroundcolor = Color.Red;
+var dolog = function (message1) { return console.log(message1); };
